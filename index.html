@@ -1,12 +1,128 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body class="wrapper">
+
+    <header class="header-wrapper">
+        <h1>Elizaveta Kulgavaya</h1>
+        <nav>
+            <a href="#about">About me</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#code">Code example</a> |
+            <a href="#experience">Experience</a> |
+            <a href="#education">Education</a> |
+            <a href="#lang">Languages</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="preview-bg">
+                <div class="preview-avatar">
+                    <figure>
+                        <img src="./assets/avatar.jpg" alt="avatar">
+                    </figure>
+                </div>
+                <div class="preview-info">
+                    <P class="preview-name ">Elizaveta Kulgavaya</P>
+                    <p class="preview-profession">Junior Frontend Developer</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="summary">
+                <h2 class="summary-label">About me</h2>
+                <div class="summary-info">
+                    I am a beginner frontend developer. I am communicative, easy to learn, and can work in a team. I
+                    want to
+                    improve my skills in frontend development. A motivated Frontend developer who strives to improve in
+                    the
+                    field of Frontend development. Ready to solve complex problems and master new technologies. I am
+                    passionate about optimizing user experience and creating user-friendly interfaces. I am looking for
+                    a
+                    company where I can apply my knowledge and actively develop.
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <h2 class="contact-label">Contact information</h2>
+                <ul>
+                    <li>Phone: +375 29 00000000</li>
+                    <li>E-mail: exsample@mail.com</li>
+                </ul>
+            </div>
+
+        </section>
+        <section id="skills">
+            <div class="skills">
+                <h2 class="skills-label">Skills</h2>
+                <ul>
+                    <li>Git, GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript (Basic)</li>
+                </ul>
+            </div>
+        </section>
+        <section id="code">
+            <div class="code">
+                <h2 class="code-label">Code example</h2>
+                <div class="code-info">
+                    <pre>
+                    <code data-language="javascript">
+                       function fib(n) {
+                            return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+                        }
+                    </code>
+                </pre>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="education">
+                <h2 class="education-label">Education</h2>
+                <div class="education-info">
+                    <div>Course JS/FE Pre-School 2025Q2</div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="experience">
+                <h2 class="experience-label">Experience</h2>
+                <div class="experience-info">
+                    <a href="https://code-basics.com/ru/languages/html/lessons/html-markup"> complete course(task)</a>
+                </div>
+            </div>
+        </section>
+        <section id="lang">
+            <div class="languages">
+                <h2 class="languages-label">Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A2</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/liza-657/">GitHub</a>
+            <p>2025</p>
+            <a class="footer-logo" href="https://rs.school/courses/javascript-ru">
+                <figure>
+                    <img src="./assets/rs-school-logo.svg" alt="logo-RSS">
+                </figure>
+            </a>
+        </div>
+    </footer>
+
 
 </body>
+
 </html>
