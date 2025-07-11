@@ -34,7 +34,7 @@
 }
 
 .preview-info {
-    flex-basis: 60%;
+    flex-basis: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,6 +49,13 @@
 .preview-profession {
     font-size: 18px;
 
+}
+
+.preview-menu {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .summary,
