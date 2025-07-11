@@ -1,6 +1,6 @@
 .wrapper {
     margin: 1em auto 1em auto;
-    max-width: 1000px
+    max-width: 1000px;
 }
 
 .header-wrapper {
@@ -86,6 +86,11 @@
 
 .code-info {
     background-color: #e4e6e6;
+}
+
+.profile-label {
+    margin: 1em;
+    font-weight: 700;
 }
 
 .footer {
